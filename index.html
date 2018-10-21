@@ -1,74 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Word Guess Game</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700i" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-        <div class="topContainer">
-            <h1>Video Games</h1><img src="assets/images/remote.png">
+
+<head>
+    <title>Word Guess Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="topContainer">
+        <h1>Video Games</h1><img src="assets/images/remote.png">
+    </div>
+
+    <div class="middleContent">
+
+        <div class="leftSide">
+
         </div>
 
-        <div class="middleContent">
+        <div class="centerContainer">
 
-            <div class="leftSide">
-                
-            </div>
-    
-            <div class="centerContainer">
+            <div class="gamePlay">
 
-                <div class="gamePlay">
+                <div class="leftGameSide">
 
-                    <div class="leftGameSide">
-
-                        <div class="gamePic">
-
-                        </div>
+                    <div class="gamePic">
 
                     </div>
 
-                    <div class="rightGameSide">
-                        <div class="centeredPiece">
-                            <div class="directions">
-                                <h2>Press any Key to start</h2>
-                            </div>
-                            
-                            <div class="wins">
-                                <h2>Wins</h2>
-                            </div>
+                </div>
 
-                            <div class="answer">
-                                <h2></h2>
+                <div class="rightGameSide">
+                    <div class="centeredPiece">
+                        <div class="directions">
+                            <h2>Press any Key to start</h2>
+                        </div>
+
+                        <div class="wins">
+                            <h2>Wins</h2>
+                            <div class="numberOfWins">
+
                             </div>
+                        </div>
 
-                            <div>
-                                <h2>Number of guesses remaining</h2>
-                                <div class="guesses">
+                        <div class="answer">
 
-                                </div>
+                        </div>
+
+                        <div>
+                            <h2>Number of guesses remaining</h2>
+                            <div class="guesses">
+
                             </div>
+                        </div>
 
-                            <div>
-                                <h2>Letters already guessed</h2>
-                                <div class="lettersGuessed">
+                        <div>
+                            <h2>Letters already guessed</h2>
+                            <input type="text" class="lettersGuessed" onkeypress="checker(event)">
 
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
 
                 </div>
             </div>
-    
-            <div class="rightSide">
-                
-            </div>
+
         </div>
+    </div>
 
-       
+    <div class="rightSide">
 
-        <script src="assets/javascript/game.js"></script>
-    </body>
+    </div>
+    </div>
+
+   
+    <script src="assets/javascript/game.js"></script> -->
+</body>
+
 </html>
